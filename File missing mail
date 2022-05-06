@@ -1,0 +1,17 @@
+Hope you are doing fine!
+
+We checked the whole communication to understand the whole issue. Please check the below points:
+
+1- ZACTT_EXTRACT_ECC had been created by user "ABAP" on 26.02.2020 in the system. Screenshot ahead - https://prnt.sc/2oRvxd_8El0h
+2- However while executing the program it is ending up in a dump saying " File "/actoutput/AGR_1016.ACTT" is not open." We checked in AL11 and found two directories named /actoutput. However both directories were not working in the system (RED). 
+3- We fixed this issue and now both directories are available and working in the system. Screenshot ahead - https://prnt.sc/GY5A7vyzDCN4 and https://prnt.sc/B_LseNuEEH0A
+4- Only the author would know the purpose of this program and would be able to generate and provide the actt file. As Basis, we can only help in creating directory structure and providing permissions to those directories. 
+
+Please try again, We believe that the program will either work now or would end up in a different error as the directory /actoutput is working now however actt file is still missing. 
+
+We understand that this issue is pending for a long time, We would be ready to come into a conference call with ABAP and the functional team to help in resolving this issue asap. 
+
+
+
+
+Regards,
